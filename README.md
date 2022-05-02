@@ -1,24 +1,22 @@
 # Reeb Graph
+1: Compute the dual graph of a Model_3D.
 
-**1:Compute the dual graph of a Model_3D.**
+2: Create the protrusion map using the dual graph and geodetic distances.
 
-**2:Create protrusion map with using the dual graph and geodetic distances.**
- 
-**3:Calculate extreme points from protrusion function.**
+3: Calculate extreme points from protrusion function.
 
-**4:** Κατασκευάστε για κάθε ακραίο σημείο το γράφο Reeb (Reeb Graph)
-του αντικειμένου, με μέτρο τη γεωδαισιακή απόσταση. Κατασκευάστε και τον
-κλασικό Γράφο καθ’ ύψος.
+4: For each extreme point the Reeb Graph is calculated, using the geodesic distance as distance. Also, the classing graph per height is calculated
 
-**Reeb graph with geodesic distances: 
+5: Motion transformation is applied in 3d models
 
-**Reeb Graph by height:** 
+6: 3D model segmentation using the Reeb graph
 
-**ΕΡΩΤΗΜΑ 5Ο** :Χρησιμοποιήστε τον γράφο Reeb έτσι ώστε να μετασχηματίσετε με
-αλγόριθμο της επιλογής σας το αντικείμενο Model_3D_1 στο αντικείμενο
-Model_3D_2.
- 
-**ΕΡΩΤΗΜΑ 6 Ο** : Χρησιμοποιήστε το γράφο Reeb έτσι ώστε να κάνετε κατάτμηση των
-αντικειμένων σε υποαντικείμενα.
+7: 3D model simplification
 
-**Simplification**
+# Dependencies
+
+VVRFRAMEWORK
+
+# Future Steps
+Code refactoring
+Use pcl instead of VVRFRAMEWORK
